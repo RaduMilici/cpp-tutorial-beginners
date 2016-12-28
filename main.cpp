@@ -1,16 +1,23 @@
 #include <iostream>
-#include "lessons/variables.cpp"
-#include "lessons/strings.cpp"
-#include "lessons/input.cpp"
-#include "lessons/integerTypes.cpp"
+#include "lessons.h"
 
 using namespace std;
 
 int main() {
-  cout << "Starting program..." << endl;
   //variables();
   //strings();
   //input();
-  integerTypes();
+  //integerTypes();
+  //floatTypes();
+  //char_bool();
+  //ifCheck();
+  //ifElseCheck();
+  //compareFloats();
+  //conditions();
+  //whileLoop();
+  //doWhileLoop();
+  //forLoop();
+  arrays();
+  
   return 0;
 }
