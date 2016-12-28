@@ -27,23 +27,25 @@ void arrays(){
   }
   cout << endl;
 //------------------------------------------------------------------------------
-  
+
   string animals[2][3] = {
-    {
-      "fox", "dog", "cat"  
-    }, 
-    {
-      "mouse", "squirrel", "dolphin"
-    }
+    { "fox", "dog", "cat" }, 
+    { "mouse", "squirrel", "dolphin" }
   };
   
-  for (int i = 0; i < 2; i++) {
+  int size = sizeof(animals);
+  int stringSize = sizeof(string);
+  
+  for (int i = 0; size > 0; i++) {
     
-    for (int j = 0; j < 3; j++) {
+    for (int j = 0; j < sizeof(animals[i]) / stringSize; j++) {
+      size -= stringSize;
       cout << animals[i][j] << " " << flush;
     }
     
     cout << endl;
+    
   }
+//------------------------------------------------------------------------------
   
 }

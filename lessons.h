@@ -12,3 +12,6 @@
 #include "lessons/doWhileLoop.cpp"
 #include "lessons/forLoop.cpp"
 #include "lessons/arrays.cpp"
+#include "lessons/sizeOfArrays.cpp"
+#include "lessons/switch.cpp"
+#include "lessons/functions.cpp"

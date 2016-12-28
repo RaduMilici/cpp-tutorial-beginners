@@ -17,7 +17,10 @@ int main() {
   //whileLoop();
   //doWhileLoop();
   //forLoop();
-  arrays();
+  //arrays();
+  //sizeOfArrays();
+  //switch_();
+  functions();
   
   return 0;
 }
