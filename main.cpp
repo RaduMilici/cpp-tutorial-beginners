@@ -20,7 +20,8 @@ int main() {
   //arrays();
   //sizeOfArrays();
   //switch_();
-  functions();
+  //functions();
+  classes();
   
   return 0;
 }

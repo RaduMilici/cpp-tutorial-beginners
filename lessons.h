@@ -15,3 +15,4 @@
 #include "lessons/sizeOfArrays.cpp"
 #include "lessons/switch.cpp"
 #include "lessons/functions.cpp"
+#include "lessons/classes.cpp"
