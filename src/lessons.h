@@ -27,3 +27,4 @@ void pointerArithmetic();
 void charArrays();
 void references();
 void const_();
+void fightStart();

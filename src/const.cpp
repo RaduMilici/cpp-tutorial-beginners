@@ -3,6 +3,7 @@ using namespace std;
 
 void pointer_to_constant_data();
 void pointers_with_const_memory_address();
+void const_data_with_const_pointer();
 //--------------------------------------------------------------------------------------
 class Animal{
 public:
@@ -27,8 +28,10 @@ void const_(){
 	cout << endl;
 
 	//----------------------------------------------------------------------------------
+
 	pointer_to_constant_data();
 	pointers_with_const_memory_address();
+	const_data_with_const_pointer();
 
 }
 //--------------------------------------------------------------------------------------
@@ -45,6 +48,12 @@ void pointer_to_constant_data(){
 	 *
 	 * */
 	int val1 = 8;
+	/*
+	 * const int* pValue read backwords:
+	 * *     - pValue is a pointer
+	 * int   - to an int
+	 * const - that is constant
+	 * */
 	const int* pValue = &val1;
 	cout << *pValue << endl; // 8
 
@@ -69,17 +78,44 @@ void pointers_with_const_memory_address(){
 	 * */
 
 	int val1 = 10;
+	/*
+	 * int* const pValue read backwords:
+	 * const - pValue is a constant
+	 * *     - pointer
+	 * int   - that points to an int
+	 * */
 	int* const pValue = &val1;
 	cout << *pValue << endl; // 10
 
 	int val2 = 29;
-	// cant change, the address stored in the pointer itself is const
+	// !!! cant change, the address stored in the pointer itself is const !!!
 	//pValue = &val2; // error: assignment of read-only variable ‘pValue’
 
 	cout << endl;
 
 }
 //--------------------------------------------------------------------------------------
+
+void const_data_with_const_pointer(){
+	cout << "const_data_with_const_pointer" << endl;
+	/*
+	 * To combine the two modes of const-ness with pointers, you can simply
+	 * include const for both data and pointer by putting const both before
+	 * and after the *
+	 */
+	int value = 29;
+	const int * const pValue = &value;
+
+	//error: assignment of read-only location ‘*(const int*)pValue’
+	//*pValue = 2;
+
+	int value2 = 5;
+	// error: assignment of read-only variable ‘pValue’
+	//pValue = &value2;
+
+	cout << *pValue << " at " << pValue << endl;
+	cout << endl;
+}
 
 
 

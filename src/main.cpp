@@ -32,7 +32,8 @@ int main() {
 	//pointerArithmetic();
 	//charArrays();
 	//references();
-	const_();
+	//const_();
+	fightStart();
   return 0;
 }
 

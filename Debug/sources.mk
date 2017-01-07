@@ -25,4 +25,5 @@ CPP_DEPS :=
 SUBDIRS := \
 src \
 src/misc \
+src/practice/fight \
 
