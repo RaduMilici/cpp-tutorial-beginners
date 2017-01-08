@@ -106,7 +106,7 @@ void const_data_with_const_pointer(){
 	int value = 29;
 	const int * const pValue = &value;
 
-	//error: assignment of read-only location ‘*(const int*)pValue’
+	// error: assignment of read-only location ‘*(const int*)pValue’
 	//*pValue = 2;
 
 	int value2 = 5;

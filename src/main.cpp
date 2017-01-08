@@ -5,6 +5,9 @@
 using namespace std;
 
 int main() {
+	/*
+	 * LESSONS
+	 * */
 	//variables();
 	//strings();
 	//input();
@@ -33,7 +36,13 @@ int main() {
 	//charArrays();
 	//references();
 	//const_();
-	fightStart();
+	//copyConstructors();
+	newOperator();
+
+	/*
+	 * PRACTICE
+	 * */
+	//fightStart();
   return 0;
 }
 

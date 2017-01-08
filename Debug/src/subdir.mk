@@ -12,6 +12,7 @@ CPP_SRCS += \
 ../src/compareFloats.cpp \
 ../src/conditions.cpp \
 ../src/const.cpp \
+../src/copyConstructors.cpp \
 ../src/doWhileLoop.cpp \
 ../src/floatTypes.cpp \
 ../src/forLoop.cpp \
@@ -21,6 +22,7 @@ CPP_SRCS += \
 ../src/input.cpp \
 ../src/integerTypes.cpp \
 ../src/main.cpp \
+../src/newOperator.cpp \
 ../src/overloading.cpp \
 ../src/pointerArithmetic.cpp \
 ../src/pointers.cpp \
@@ -43,6 +45,7 @@ OBJS += \
 ./src/compareFloats.o \
 ./src/conditions.o \
 ./src/const.o \
+./src/copyConstructors.o \
 ./src/doWhileLoop.o \
 ./src/floatTypes.o \
 ./src/forLoop.o \
@@ -52,6 +55,7 @@ OBJS += \
 ./src/input.o \
 ./src/integerTypes.o \
 ./src/main.o \
+./src/newOperator.o \
 ./src/overloading.o \
 ./src/pointerArithmetic.o \
 ./src/pointers.o \
@@ -74,6 +78,7 @@ CPP_DEPS += \
 ./src/compareFloats.d \
 ./src/conditions.d \
 ./src/const.d \
+./src/copyConstructors.d \
 ./src/doWhileLoop.d \
 ./src/floatTypes.d \
 ./src/forLoop.d \
@@ -83,6 +88,7 @@ CPP_DEPS += \
 ./src/input.d \
 ./src/integerTypes.d \
 ./src/main.d \
+./src/newOperator.d \
 ./src/overloading.d \
 ./src/pointerArithmetic.d \
 ./src/pointers.d \

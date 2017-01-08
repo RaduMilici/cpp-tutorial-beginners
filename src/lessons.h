@@ -1,4 +1,6 @@
-
+/*
+ * LESSONS
+ * */
 void variables();
 void strings();
 void input();
@@ -27,4 +29,9 @@ void pointerArithmetic();
 void charArrays();
 void references();
 void const_();
+void copyConstructors();
+void newOperator();
+/*
+ * PRACTICE
+ * */
 void fightStart();
