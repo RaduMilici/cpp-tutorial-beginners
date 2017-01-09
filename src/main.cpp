@@ -37,7 +37,8 @@ int main() {
 	//references();
 	//const_();
 	//copyConstructors();
-	newOperator();
+	//newOperator();
+	allocatingMemory();
 
 	/*
 	 * PRACTICE

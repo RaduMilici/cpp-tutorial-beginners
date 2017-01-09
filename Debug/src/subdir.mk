@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/allocatingMemory.cpp \
 ../src/arithmetic.cpp \
 ../src/arrays.cpp \
 ../src/charArrays.cpp \
@@ -37,6 +38,7 @@ CPP_SRCS += \
 ../src/whileLoop.cpp 
 
 OBJS += \
+./src/allocatingMemory.o \
 ./src/arithmetic.o \
 ./src/arrays.o \
 ./src/charArrays.o \
@@ -70,6 +72,7 @@ OBJS += \
 ./src/whileLoop.o 
 
 CPP_DEPS += \
+./src/allocatingMemory.d \
 ./src/arithmetic.d \
 ./src/arrays.d \
 ./src/charArrays.d \

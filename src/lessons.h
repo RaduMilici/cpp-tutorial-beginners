@@ -31,6 +31,7 @@ void references();
 void const_();
 void copyConstructors();
 void newOperator();
+void allocatingMemory();
 /*
  * PRACTICE
  * */
