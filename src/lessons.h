@@ -1,6 +1,4 @@
-/*
- * LESSONS
- * */
+//LESSONS
 void variables();
 void strings();
 void input();
@@ -32,7 +30,11 @@ void const_();
 void copyConstructors();
 void newOperator();
 void allocatingMemory();
-/*
- * PRACTICE
- * */
+void arraysAndFunctions();
+void namespaces();
+void inheritance();
+void encalpuslation();
+void constructorsAndInheritance();
+
+//PRACTICE
 void fightStart();

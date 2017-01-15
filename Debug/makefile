@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include src/practice/fight/subdir.mk
+-include src/misc/animals/subdir.mk
 -include src/misc/subdir.mk
 -include src/subdir.mk
 -include subdir.mk

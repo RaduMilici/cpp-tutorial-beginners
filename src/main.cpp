@@ -5,9 +5,10 @@
 using namespace std;
 
 int main() {
-	/*
-	 * LESSONS
-	 * */
+	///////////
+	//LESSONS//
+	///////////
+
 	//variables();
 	//strings();
 	//input();
@@ -38,11 +39,17 @@ int main() {
 	//const_();
 	//copyConstructors();
 	//newOperator();
-	allocatingMemory();
+	//allocatingMemory();
+	//arraysAndFunctions();
+	//namespaces();
+	//inheritance();
+	//encalpuslation();
+	constructorsAndInheritance();
 
-	/*
-	 * PRACTICE
-	 * */
+	////////////
+	//PRACTICE//
+	////////////
+
 	//fightStart();
   return 0;
 }
