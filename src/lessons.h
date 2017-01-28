@@ -1,0 +1,40 @@
+//LESSONS
+void variables();
+void strings();
+void input();
+void integerTypes();
+void floatTypes();
+void char_bool();
+void ifCheck();
+void ifElseCheck();
+void compareFloats();
+void conditions();
+void whileLoop();
+void doWhileLoop();
+void forLoop();
+void arrays();
+void sizeOfArrays();
+void switch_();
+void functions();
+void classes();
+void stringStream();
+void overloading();
+void thisKeyword();
+void pointers();
+void arithmetic();
+void pointersAndArrays();
+void pointerArithmetic();
+void charArrays();
+void references();
+void const_();
+void copyConstructors();
+void newOperator();
+void allocatingMemory();
+void arraysAndFunctions();
+void namespaces();
+void inheritance();
+void encalpuslation();
+void constructorsAndInheritance();
+
+//PRACTICE
+void fightStart();
