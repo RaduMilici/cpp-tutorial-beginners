@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpp_udemy" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cpp_udemy" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="lessons" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cpp_udemy" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="lessons" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="lessons.h" />
+		<Unit filename="lessons/Cat.cpp" />
+		<Unit filename="lessons/Cat.h" />
+		<Unit filename="lessons/arrays.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/char_bool.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/classes.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/compareFloats.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/conditions.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/doWhileLoop.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/floatTypes.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/forLoop.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/functions.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/ifCheck.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/ifElseCheck.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/input.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/integerTypes.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/misc/functions.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/sizeOfArrays.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/strings.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/switch.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/variables.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="lessons/whileLoop.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

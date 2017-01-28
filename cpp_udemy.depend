@@ -1,0 +1,150 @@
+# depslib dependency file v1.0
+1483188679 source:/home/radu/Documents/git/cpp_udemy/main.cpp
+	<iostream>
+	"lessons.h"
+
+1483181472 source:/home/radu/Documents/git/cpp_udemy/lessons/arrays.cpp
+	<iostream>
+
+1483041919 source:/home/radu/Documents/git/cpp_udemy/lessons/classes.cpp
+
+1483181474 source:/home/radu/Documents/git/cpp_udemy/lessons/char_bool.cpp
+	<iostream>
+
+1483181465 source:/home/radu/Documents/git/cpp_udemy/lessons/compareFloats.cpp
+	<iomanip>
+	<iostream>
+
+1483181483 source:/home/radu/Documents/git/cpp_udemy/lessons/conditions.cpp
+	<iostream>
+
+1483181488 source:/home/radu/Documents/git/cpp_udemy/lessons/doWhileLoop.cpp
+	<iostream>
+
+1483181505 source:/home/radu/Documents/git/cpp_udemy/lessons/floatTypes.cpp
+	<iostream>
+	<iomanip>
+
+1483181512 source:/home/radu/Documents/git/cpp_udemy/lessons/forLoop.cpp
+	<iostream>
+
+1483181691 source:/home/radu/Documents/git/cpp_udemy/lessons/functions.cpp
+	<iostream>
+	"misc/functions.h"
+
+1483181669 /home/radu/Documents/git/cpp_udemy/lessons/misc/functions.h
+
+1483181520 source:/home/radu/Documents/git/cpp_udemy/lessons/ifCheck.cpp
+	<iostream>
+
+1483181525 source:/home/radu/Documents/git/cpp_udemy/lessons/ifElseCheck.cpp
+	<iostream>
+
+1483181528 source:/home/radu/Documents/git/cpp_udemy/lessons/input.cpp
+	<iostream>
+
+1483181535 source:/home/radu/Documents/git/cpp_udemy/lessons/integerTypes.cpp
+	<iostream>
+	<limits.h>
+
+1483181539 source:/home/radu/Documents/git/cpp_udemy/lessons/sizeOfArrays.cpp
+	<iostream>
+
+1483181544 source:/home/radu/Documents/git/cpp_udemy/lessons/strings.cpp
+	<iostream>
+
+1483181548 source:/home/radu/Documents/git/cpp_udemy/lessons/switch.cpp
+	<iostream>
+
+1483027323 source:/home/radu/Documents/git/cpp_udemy/lessons/variables.cpp
+	<iostream>
+
+1483181557 source:/home/radu/Documents/git/cpp_udemy/lessons/whileLoop.cpp
+	<iostream>
+
+1483188064 /home/radu/Documents/git/cpp_udemy/lessons.h
+	"lessons/variables.cpp"
+	"lessons/strings.cpp"
+	"lessons/input.cpp"
+	"lessons/integerTypes.cpp"
+	"lessons/floatTypes.cpp"
+	"lessons/char_bool.cpp"
+	"lessons/ifCheck.cpp"
+	"lessons/ifElseCheck.cpp"
+	"lessons/compareFloats.cpp"
+	"lessons/conditions.cpp"
+	"lessons/whileLoop.cpp"
+	"lessons/doWhileLoop.cpp"
+	"lessons/forLoop.cpp"
+	"lessons/arrays.cpp"
+	"lessons/sizeOfArrays.cpp"
+	"lessons/switch.cpp"
+	"lessons/functions.cpp"
+	"lessons/classes.cpp"
+
+1483027323 /home/radu/Documents/git/cpp_udemy/lessons/variables.cpp
+	<iostream>
+
+1483181544 /home/radu/Documents/git/cpp_udemy/lessons/strings.cpp
+	<iostream>
+
+1483181528 /home/radu/Documents/git/cpp_udemy/lessons/input.cpp
+	<iostream>
+
+1483181535 /home/radu/Documents/git/cpp_udemy/lessons/integerTypes.cpp
+	<iostream>
+	<limits.h>
+
+1483181505 /home/radu/Documents/git/cpp_udemy/lessons/floatTypes.cpp
+	<iostream>
+	<iomanip>
+
+1483181474 /home/radu/Documents/git/cpp_udemy/lessons/char_bool.cpp
+	<iostream>
+
+1483181520 /home/radu/Documents/git/cpp_udemy/lessons/ifCheck.cpp
+	<iostream>
+
+1483181525 /home/radu/Documents/git/cpp_udemy/lessons/ifElseCheck.cpp
+	<iostream>
+
+1483181465 /home/radu/Documents/git/cpp_udemy/lessons/compareFloats.cpp
+	<iomanip>
+	<iostream>
+
+1483181483 /home/radu/Documents/git/cpp_udemy/lessons/conditions.cpp
+	<iostream>
+
+1483181557 /home/radu/Documents/git/cpp_udemy/lessons/whileLoop.cpp
+	<iostream>
+
+1483181488 /home/radu/Documents/git/cpp_udemy/lessons/doWhileLoop.cpp
+	<iostream>
+
+1483181512 /home/radu/Documents/git/cpp_udemy/lessons/forLoop.cpp
+	<iostream>
+
+1483181472 /home/radu/Documents/git/cpp_udemy/lessons/arrays.cpp
+	<iostream>
+
+1483181539 /home/radu/Documents/git/cpp_udemy/lessons/sizeOfArrays.cpp
+	<iostream>
+
+1483181548 /home/radu/Documents/git/cpp_udemy/lessons/switch.cpp
+	<iostream>
+
+1483181691 /home/radu/Documents/git/cpp_udemy/lessons/functions.cpp
+	<iostream>
+	"misc/functions.h"
+
+1483189125 /home/radu/Documents/git/cpp_udemy/lessons/classes.cpp
+	"Cat.h"
+
+1483187518 /home/radu/Documents/git/cpp_udemy/include/Cat.h
+
+1483188645 source:/home/radu/Documents/git/cpp_udemy/lessons/Cat.cpp
+	<iostream>
+	"Cat.h"
+
+1483188577 /home/radu/Documents/git/cpp_udemy/lessons/Cat.h
+
